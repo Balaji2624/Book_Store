@@ -27,7 +27,7 @@ public class RegisterController {
     }
     @GetMapping("/push")
     public String push(){
-        return "kunal";
+        return "Balaji";
     }
     @PostMapping("/register")
     public ResponseEntity<?> addUser(@Validated @RequestBody UserDTO userDTO){
